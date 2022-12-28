@@ -1,0 +1,20 @@
+/* .customShadow {
+    box-shadow: 0 2px 2px var(--sapShellColor);
+} */
+
+.sapThemeHeight {
+  height: calc(100vh - 3.25rem);
+}
+
+ui5-shellbar::part(root) {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+fieldset {
+  margin: 8px;
+  border: 1px solid var(--sapPageHeader_BorderColor);
+  padding: 12px;
+  border-radius: 12px;
+}
+

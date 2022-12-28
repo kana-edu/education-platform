@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>KANA Education Platform</title>
+  <!-- <style type="text/css" data-ui5-font-face="">
+    @font-face {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: local("Poppins"),
+            url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_fiori_3/fonts/72-Light.woff2?ui5-webcomponents) format("woff2");
+    }
+  </style> -->
+  <script>
+    document.documentElement.style.setProperty("background-color", "#13161a");
+    if (localStorage.getItem('kanaEduTheme') === 'dark') {
+      document.documentElement.style.setProperty("background-color", "#13161a");
+    }
+  </script>
+</head>
+
+<body">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script src="./src/index.jsx" type="module"></script>
+  </body>
+
+</html>
